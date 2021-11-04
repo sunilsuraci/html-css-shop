@@ -1,0 +1,33 @@
+.imge {
+    display: inline-block;
+    position: relative;
+}   
+.imge:hover > .heart {
+    display:block ;
+    color: red;
+    cursor: pointer;
+} 
+.row {
+    margin: 0 auto;
+    width: 1000px;
+}
+.heart {
+   position: absolute; 
+   bottom: 10px;
+   left: 45%;
+   display: none;
+}   
+.sconto5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 3px;
+}
+.sconto30 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+    padding: 3px
+}
